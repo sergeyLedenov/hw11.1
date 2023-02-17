@@ -1,0 +1,29 @@
+body {
+    padding-top: 50px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+    z-index: 1;
+} 
+
+.blue {
+    background-color: blue;
+    z-index: 2;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+
+.green {
+    background-color: green;
+    z-index: 1;
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
